@@ -113,13 +113,13 @@ const themeOne_reviewCard = `
 
 const themeOne = `
         <div style="width: 80%;margin: auto;margin-bottom:20px;border-radius: 10px;border: 1px solid {{%BACKGROUND_COLOR%}};margin-top: 20px;">
-            <div class="Polaris-Card">
+            <div class="Polaris-Card" style="min-height:150px;">
               <div class="Polaris-Card__Section">
                   <div>
                     <div class="Polaris-Stack Polaris-Stack--distributionFill">
                       <div class="Polaris-Stack__Item">
                         <div style="text-align:left;">
-                            <span style="font-weight:bold; color:{{%CROUSEL_HEADER_TEXT_COLOR%}}; font-size:{{%CROUSEL_HEADER_TEXT_SIZE%}}px;">{{%CROUSEL_HEADER%}}</span><br/>
+                            <h1 style="color:{{%CROUSEL_HEADER_TEXT_COLOR%}}; font-size:{{%CROUSEL_HEADER_TEXT_SIZE%}}px;">{{%CROUSEL_HEADER%}}</h1><br/>
                             {{%AVERAGE_REVIEW_RATING%}}
                             <h3>{{%FOOTER_REVIEW%}}</h3>
                         </div>
